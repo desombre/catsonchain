@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/catsonchain/static/css/main.073c9b0a.css",
+    "main.js": "/catsonchain/static/js/main.5a2b5fee.js",
+    "static/js/787.329ab250.chunk.js": "/catsonchain/static/js/787.329ab250.chunk.js",
+    "static/media/logo.svg": "/catsonchain/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/catsonchain/index.html",
+    "main.073c9b0a.css.map": "/catsonchain/static/css/main.073c9b0a.css.map",
+    "main.5a2b5fee.js.map": "/catsonchain/static/js/main.5a2b5fee.js.map",
+    "787.329ab250.chunk.js.map": "/catsonchain/static/js/787.329ab250.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5a2b5fee.js"
+  ]
+}
