@@ -2,37 +2,42 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    #e7e7e7 0%,
+    #bdab79 50%,
+    #6b6144 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    #e7e7e7 0%,
+    #bdab79 50%,
+    #6b6144 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, #e7e7e7 0%, #bdab79 50%, #6b6144 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6B6144', endColorstr='#E7E7E7', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, #e7e7e7 0%, #bdab79 50%, #6b6144 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, #e7e7e7 0%, #bdab79 50%, #6b6144 100%);
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(32px + 2vmin);
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-shadow: #000000 2px 2px 3px;
 }
