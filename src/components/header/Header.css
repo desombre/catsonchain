@@ -1,0 +1,29 @@
+.bar {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    background-color: #90a4ae77;
+    position: sticky;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+    justify-content: space-around;
+
+
+}
+
+.anchorsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.divider {
+    flex-grow: 11;
+}

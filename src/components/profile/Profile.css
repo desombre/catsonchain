@@ -1,0 +1,6 @@
+.profile {
+    padding: 8px;
+    background-color: rgba(245, 245, 245, 0.75);
+    border-radius: 100%;
+    width: max-content;
+}
