@@ -2,8 +2,10 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div >
-      <img className="profile" src="profile.gif" alt="cat gif"></img>
+    <div className="profileContainer">
+      <div className="profile">
+        <img src="profile.gif" alt="cat gif"></img>
+      </div>
     </div>
   );
 };
