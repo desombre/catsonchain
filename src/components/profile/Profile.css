@@ -1,6 +1,6 @@
 .profile {
     padding: 16px;
-    background-color: rgba(245, 245, 245, 0.75);
+    background-color: var(--color-text);
     border-radius: 100%;
     width: max-content;
 }

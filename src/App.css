@@ -4,72 +4,73 @@
   flex-direction: column;
   justify-content: flex-start;
   min-height: 100vh;
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    #e7e7e791 0%,
-    #bdab7985 50%,
-    #6b61446e 100%
-  );
 
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    #e7e7e791 0%,
-    #bdab7985 50%,
-    #6b61446e 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    #e7e7e791 0%,
-    #bdab7985 50%,
-    #6b61446e 100%
-  );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    #e7e7e791 0%,
-    #bdab7985 50%,
-    #6b61446e 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    #e7e7e791 0%,
-    #bdab7985 50%,
-    #6b61446e 100%
-  );
 }
 
 .item {
   width: 100%;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
-/* unvisited link */
-a:link {
-  color: black;
+.content_container {
+  width: 100%;
 }
 
-/* visited link */
-a:visited {
-  color: black;
+.content_container * {
+  padding-top: 8px;
 }
 
-/* mouse over link */
-a:hover {
-  color: #546e7a;
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+  .item {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
-/* selected link */
-a:active {
-  color: black;
+@media screen and (min-width:1200px) {
+  .item {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 
-a {
-  transition: color 0.5s;
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    var(--color-bg ) 0%,
+    var(--color-footer) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    var(--color-bg ) 0%,
+    var(--color-footer) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    var(--color-bg ) 0%,
+    var(--color-footer) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    var(--color-bg ) 0%,
+    var(--color-footer) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    var(--color-bg ) 0%,
+    var(--color-footer) 100%
+  );
 }

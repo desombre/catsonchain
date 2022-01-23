@@ -4,8 +4,9 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 24px;
-    background-color: #90a4ae77;
-    position: sticky;
+    background-color: var(--color-nav);
+    position: fixed;
+    width: 100%;
 }
 
 .socialContainer {
@@ -14,7 +15,10 @@
     justify-content: flex-start;
     flex-grow: 1;
     justify-content: space-around;
-
+    display: -webkit-flex; /* Safari */  
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center;
+    font-size: 32px;
 
 }
 
@@ -26,4 +30,8 @@
 
 .divider {
     flex-grow: 11;
+}
+
+svg {
+    display: block;
 }
