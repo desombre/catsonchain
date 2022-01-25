@@ -4,9 +4,10 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 24px;
-    background-color: var(--color-nav);
     position: fixed;
     width: 100%;
+    background-color: var(--color-footer);
+    margin-bottom: 16px;
 }
 
 .socialContainer {
@@ -21,6 +22,16 @@
     font-size: 32px;
 
 }
+
+
+  
+  @media screen and (min-width:1200px) {
+    .bar {
+        background-color: transparent;
+
+    }
+  }
+  
 
 .anchorsContainer {
     display: flex;

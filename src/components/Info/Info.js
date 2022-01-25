@@ -1,10 +1,10 @@
-import './Info.css'
+import "./Info.css";
 
 const Info = () => {
   return (
-    <div className='info'>
+    <div className="info textBox ">
       <h1>Lorem ipsum dolor sit amet</h1>
-      <p  className="text">
+      <p className="text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Neque ornare aenean
         euismod elementum. In arcu cursus euismod quis viverra. Commodo quis
@@ -25,32 +25,37 @@ const Info = () => {
         eget arcu dictum. Tempor orci eu lobortis elementum nibh tellus
         molestie. Mauris in aliquam sem fringilla ut morbi tincidunt. Arcu
         bibendum at varius vel pharetra vel. Facilisi nullam vehicula ipsum a
-        arcu cursus. Pellentesque eu tincidunt tortor aliquam nulla facilisi
-        cras. Urna id volutpat lacus laoreet non curabitur gravida arcu. Vitae
-        ultricies leo integer malesuada nunc vel risus. Semper auctor neque
-        vitae tempus quam pellentesque. Erat pellentesque adipiscing commodo
-        elit at imperdiet. Neque vitae tempus quam pellentesque. Netus et
-        malesuada fames ac turpis egestas maecenas pharetra. Euismod elementum
-        nisi quis eleifend quam adipiscing. Justo donec enim diam vulputate ut
-        pharetra sit. Etiam dignissim diam quis enim lobortis. Leo vel fringilla
-        est ullamcorper eget nulla. Suscipit adipiscing bibendum est ultricies.
-        At varius vel pharetra vel turpis. Maecenas pharetra convallis posuere
-        morbi leo urna. Etiam dignissim diam quis enim lobortis scelerisque
-        fermentum dui faucibus. Eu facilisis sed odio morbi quis. Quam quisque
-        id diam vel. Fermentum dui faucibus in ornare quam viverra orci
-        sagittis. Egestas diam in arcu cursus euismod quis viverra nibh. Amet
-        tellus cras adipiscing enim eu turpis. Tincidunt tortor aliquam nulla
-        facilisi cras fermentum odio eu. Erat nam at lectus urna duis convallis.
-        Consectetur a erat nam at lectus urna duis convallis convallis.
-        Dignissim diam quis enim lobortis scelerisque fermentum dui. Pulvinar
-        mattis nunc sed blandit libero volutpat sed cras. Eu feugiat pretium
-        nibh ipsum consequat nisl vel. Metus dictum at tempor commodo
-        ullamcorper a lacus vestibulum sed. Imperdiet massa tincidunt nunc
-        pulvinar. Laoreet suspendisse interdum consectetur libero id. Amet
-        facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis
-        commodo odio. Sed faucibus turpis in eu mi bibendum. Integer enim neque
-        volutpat ac. Maecenas ultricies mi eget mauris pharetra. Senectus et
-        netus et malesuada fames. Est ullamcorper eget nulla facilisi etiam
+        arcu cursus.
+      </p>
+      <p className="text">
+        Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Urna id
+        volutpat lacus laoreet non curabitur gravida arcu. Vitae ultricies leo
+        integer malesuada nunc vel risus. Semper auctor neque vitae tempus quam
+        pellentesque. Erat pellentesque adipiscing commodo elit at imperdiet.
+        Neque vitae tempus quam pellentesque. Netus et malesuada fames ac turpis
+        egestas maecenas pharetra. Euismod elementum nisi quis eleifend quam
+        adipiscing. Justo donec enim diam vulputate ut pharetra sit. Etiam
+        dignissim diam quis enim lobortis. Leo vel fringilla est ullamcorper
+        eget nulla. Suscipit adipiscing bibendum est ultricies. At varius vel
+        pharetra vel turpis. Maecenas pharetra convallis posuere morbi leo urna.
+        Etiam dignissim diam quis enim lobortis scelerisque fermentum dui
+        faucibus. Eu facilisis sed odio morbi quis. Quam quisque id diam vel.
+        Fermentum dui faucibus in ornare quam viverra orci sagittis. Egestas
+        diam in arcu cursus euismod quis viverra nibh. Amet tellus cras
+        adipiscing enim eu turpis. Tincidunt tortor aliquam nulla facilisi cras
+        fermentum odio eu. Erat nam at lectus urna duis convallis. Consectetur a
+        erat nam at lectus urna duis convallis convallis. Dignissim diam quis
+        enim lobortis scelerisque fermentum dui. Pulvinar mattis nunc sed
+        blandit libero volutpat sed cras. Eu feugiat pretium nibh ipsum
+        consequat nisl vel. Metus dictum at tempor commodo ullamcorper a lacus
+        vestibulum sed. Imperdiet massa tincidunt nunc pulvinar. Laoreet
+        suspendisse interdum consectetur libero id.
+      </p>
+      <p className="text">
+        Amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi
+        quis commodo odio. Sed faucibus turpis in eu mi bibendum. Integer enim
+        neque volutpat ac. Maecenas ultricies mi eget mauris pharetra. Senectus
+        et netus et malesuada fames. Est ullamcorper eget nulla facilisi etiam
         dignissim. Mauris vitae ultricies leo integer. Risus quis varius quam
         quisque id diam vel. Dictumst vestibulum rhoncus est pellentesque. Quam
         viverra orci sagittis eu volutpat. Consequat nisl vel pretium lectus

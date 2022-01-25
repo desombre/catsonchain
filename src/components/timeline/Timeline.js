@@ -3,7 +3,7 @@ import "./Timeline.css";
 
 const Timeline = () => {
   return (
-    <div className="timeline">
+    <div className="timeline textBox ">
       <TimelineEntry side={"left"}>
         <h2>2017</h2>
         <p>

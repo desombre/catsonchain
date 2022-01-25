@@ -2,7 +2,7 @@ import "./Introduction.css"
 
 const Introduction = () => {
   return (
-    <div className="introductionContainer">
+    <div className="introductionContainer textBox">
       <p>
         CatsOnChain is the first 100% On-Chain generated GIF-collection on the
         Ethereum blockchain.

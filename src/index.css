@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --font-family: 'Roboto', sans-serif;
+  --font-family: "Roboto", sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
   /* CSS HEX */
-  --color-bg: #001514ff;
-  --color-footer : #6b6144ff;
-  --color-subtext: #bdab79ff;
+  --color-bg: #001514;
+  --color-footer: #6b6144;
+  --color-subtext: #bdab79;
   --color-text: #ecf0f1;
-  --color-highlight:#e24e1bff;
-  --color-blog: #721121ff;
-  --color-nav: #778ca3
+  --color-highlight: #e24e1b;
+  --color-blog: #721121;
+  --color-nav: #778ca3;
 
-
-/* SCSS Gradient 
+  /* SCSS Gradient 
 $gradient-top: linear-gradient(0deg, #001514ff, #6b6144ff, #bdab79ff, #e24e1bff, #721121ff);
 $gradient-right: linear-gradient(90deg, #001514ff, #6b6144ff, #bdab79ff, #e24e1bff, #721121ff);
 $gradient-bottom: linear-gradient(180deg, #001514ff, #6b6144ff, #bdab79ff, #e24e1bff, #721121ff);
@@ -28,6 +27,7 @@ $gradient-radial: radial-gradient(#001514ff, #6b6144ff, #bdab79ff, #e24e1bff, #7
 }
 
 * {
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   color: var(--color-text);
@@ -67,4 +67,20 @@ p {
   padding-left: 8px;
   padding-right: 8px;
   font-size: large;
+}
+
+.textBox {
+  border: #ecf0f11b 3px solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+h1,
+h2,
+h3 {
+  color: #bdab79;
+  margin-bottom: 8px;
+  text-align: initial;
+  padding-left: 8px;
+  padding-right: 8px;
 }

@@ -3,9 +3,11 @@
     background-color: var(--color-text);
     border-radius: 100%;
     width: max-content;
+    height: max-content;
 }
 
 .profileContainer {
     display: flex;
     justify-content: center;
+    margin-top: 16px;
 }
