@@ -8,6 +8,7 @@
     width: 100%;
     background-color: var(--color-footer);
     margin-bottom: 16px;
+    z-index: 99;
 }
 
 .socialContainer {
