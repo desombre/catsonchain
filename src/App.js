@@ -1,11 +1,5 @@
 import "./App.css";
-import {
-  Header,
-  Profile,
-  Introduction,
-  Info,
-  Timeline,
-} from "./components";
+import { Header, Profile, Introduction, Info, Timeline, Faqs } from "./components";
 
 function App() {
   return (
@@ -22,13 +16,16 @@ function App() {
         <div className="item">
           <Introduction />
         </div>
-       
+
         <div className="item">
           <Info />
         </div>
-       
+
         <div className="item">
           <Timeline />
+        </div>
+        <div className="item">
+          <Faqs />
         </div>
       </div>
     </div>

@@ -40,13 +40,13 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: var(--color-bg);
+  color: var(--color-text);
 }
 
 /* mouse over link */
 a:hover,
 svg:hover {
-  color: #546e7a;
+  color: var(--color-nav);
   fill: var(--color-bg);
 }
 
@@ -57,11 +57,15 @@ svg:active {
 }
 
 a,
-svg {
+svg,
+a:link {
   transition: color 0.5s;
   transition: fill 0.5s;
   fill: var(--color-text);
+  color: var(--color-text);
 }
+
+
 
 p {
   padding-left: 8px;
@@ -83,4 +87,8 @@ h3 {
   text-align: initial;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+ul {
+  margin-left: 16px;
 }
