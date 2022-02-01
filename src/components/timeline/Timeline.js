@@ -36,6 +36,13 @@ const Timeline = () => {
         <p>Setting up the Discord and Website</p>
       </TimelineEntry>
       <TimelineEntry side={"left"}>
+        <h2>Q2-Q4 2022</h2>
+        <p>
+          New projects with innovative On Chain ideas. The NFTs can only be
+          minted by CatsOnChain owners.
+        </p>
+      </TimelineEntry>
+      <TimelineEntry side={"right"}>
         <h2>Q1 2022</h2>
         <p>
           Support new projects in setting up on-chain GIF smart contracts. In
@@ -43,7 +50,7 @@ const Timeline = () => {
           distributed among the CatsOnChain owners.
         </p>
       </TimelineEntry>
-      <TimelineEntry side={"right"}>
+      <TimelineEntry side={"left"}>
         <h2>Q2-Q4 2022</h2>
         <p>
           New projects with innovative On Chain ideas. The NFTs can only be

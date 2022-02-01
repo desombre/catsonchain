@@ -1,9 +1,10 @@
+import TextDecorator from "../text-decorator/TextDecorator";
 import "./Introduction.css";
 
 const Introduction = () => {
   return (
     <div className="introductionContainer textBox">
-      <h1>Introduction</h1>
+      <h1><TextDecorator>Introduction</TextDecorator></h1>
 
       <p className="text">
         CatsOnChain is the first 100% On-Chain generated GIF-collection on the

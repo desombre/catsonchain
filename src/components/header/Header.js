@@ -71,7 +71,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://discord.com/channels/@me/931902543422959686/936044990709264395"
+          href="https://etherscan.io/address/0xe22371c4293f0cecd24273d65e7d707728da923e"
           target="_blank"
           rel="noreferrer"
         >
