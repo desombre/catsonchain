@@ -24,7 +24,8 @@ const FaqItem = ({ question, children }) => {
         style={{
           visibility: showAnswer ? "visible" : "hidden",
           opacity: showAnswer ? 1 : 0,
-          display: showAnswer ? "initial" : "none",
+          height: showAnswer ? "auto" : "0",
+          overflow: "hidden",
           transition: "visibility 0s, opacity 0.5s linear",
         }}
       >
