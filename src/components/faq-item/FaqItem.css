@@ -2,6 +2,15 @@
   vertical-align: middle;
   display: inline-block;
   fill: var(--color-subtext);
-  cursor: pointer;
   transition: all 0.5s;
+}
+
+.clickable > * {
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.clickable:hover > * {
+  color: var(--color-bg);
+  fill: var(--color-bg);
 }
