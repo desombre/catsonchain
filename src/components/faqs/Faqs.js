@@ -39,7 +39,7 @@ const Faqs = () => {
           >
             {" "}
             https://medium.com/&#10;@pmd.gifnft/&#10;catsonchain-the-first-collection-with-100-randomly-generated-on-chain-gifs-1cb6520a4cfe
-          </a>
+          </a>. Aditionally we are planning on implementing minting on this site in the future.
         </p>
       </FaqItem>
 
