@@ -1,0 +1,16 @@
+.team-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-item {
+  padding-right: 8px;
+  padding-left: 8px;
+  flex: 1 1 0px
+}
+
+@media all and (max-width: 576px) {
+  .team-container {
+    flex-flow: column wrap;
+  }
+}

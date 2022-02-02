@@ -5,6 +5,6 @@ import Info from "./info/Info";
 import Timeline from "./timeline/Timeline";
 import Divider from "./divider/Divider";
 import Faqs from "./faqs/Faqs";
-import TeamMembers from "./team-members/TeamMembers";
+import Team from "./team/Team";
 
-export { Profile, Header, Introduction, Info, Timeline, Divider, Faqs, TeamMembers }
+export { Profile, Header, Introduction, Info, Timeline, Divider, Faqs, Team as TeamMembers }

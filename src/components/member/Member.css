@@ -1,0 +1,36 @@
+.member-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.svg-mover {
+  position: relative;
+  top: 6px;
+}
+
+.image-container {
+  width: max-content;
+  height: max-content;
+  align-self: center;
+}
+
+.speech {
+  color: var(--color-bg);
+  background-color: #fff;
+  padding: 1.125em 1.5em;
+  border-radius: 1rem;
+  text-align: start;
+}
+
+.speech::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: 50%;
+  border: 0.75rem solid transparent;
+
+  border-bottom-color: #fff;
+}
