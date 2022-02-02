@@ -11,13 +11,12 @@ const Team = ({ side, ...props }) => {
       <div className="team-container">
       <div className="team-item">
           <Member name={"pmd"} picture={"cat0.gif"}>
-            Hello, my name is caiojhda aiwsjdioa oiajsdfas f aoijfa faf
-            .afsmipoa owefj wef cwojrfwjfon cewiof csjhef ih
+            Hello, my name is PMD. I started the project to create something that has never been done before. I love new and intereszing technologies and like to experiment with them.
           </Member>
         </div>
         <div className="team-item">
           <Member className="team-item" name={"kaimbe"} picture={"cat1.gif"}>
-            Hello, my name is kaimbe. I am a software developer by trade and passion. I developed this website and supported pmd with reviewing the code of the catsonchain NFT contract.
+            Heyho, I am kaimbe. I am a software developer by trade and passion. I developed this website and supported PMD with reviewing the code of the catsonchain NFT contract.
           </Member>
         </div>        
       </div>
