@@ -11,7 +11,7 @@ const Team = ({ side, ...props }) => {
       <div className="team-container">
       <div className="team-item">
           <Member name={"pmd"} picture={"cat0.gif"}>
-            Hello, my name is PMD. I started the project to create something that has never been done before. I love new and intereszing technologies and like to experiment with them.
+            Hello, my name is PMD. I started the project to create something that has never been done before. I love new and interesting technologies and like to experiment with them.
           </Member>
         </div>
         <div className="team-item">
