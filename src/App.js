@@ -1,7 +1,9 @@
 import "./App.css";
-import { Header, Profile, Introduction, Info, Timeline, Faqs, TeamMembers } from "./components";
+import { Header, Profile, Introduction, About, Timeline, Faqs, TeamMembers } from "./components";
 
 function App() {
+  const data = require('./config.json');
+
   return (
     <div className="container gradient__bg">
       <div className="" style={{ paddingBottom: "40px" }}>
@@ -14,21 +16,21 @@ function App() {
         </div>
 
         <div className="item">
-          <Introduction />
+          <Introduction paragraphs={data.introduction} />
         </div>
 
         <div className="item">
-          <Info />
+          <About about={data.about}/>
         </div>
 
         <div className="item">
-          <Timeline />
+          <Timeline timeline={data.timeline} />
         </div>
         <div className="item">
-          <TeamMembers />
+          <TeamMembers members={data.members}/>
         </div>
         <div className="item">
-          <Faqs />
+          <Faqs faqs={data.faqs}/>
         </div>
       </div>
     </div>
