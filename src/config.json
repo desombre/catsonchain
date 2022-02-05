@@ -2,7 +2,7 @@
   "introduction": [
     "CatsOnChain is the first 100% On-Chain generated GIF-collection on the Ethereum blockchain. If you look at the current on-chain NFT projects, you will notice that most of them use vector images (SVG). We haven't found a single collection that generates on-chain gifs. So here we are. Please check these Medium Posts for more information: <a href='https://medium.com/@pmd.gifnft' target='_blank' rel='noreferrer' > medium.com</a>.",
     "Our goal is to develop innovations on the blockchain. CatsOnChain is the first project but not the last. We have more new, innovative ideas that we will implement in the coming months. The COnS owners will receive benefits for these.",
-    "Because we are the first ever to create GIFs on-chain, we like to share this knowledge with other projects. For this \"consulting\"we want to get a certain amount of the NFTs from the new project in return. These NFTs will then be drawn between all CatsOnChain holders. Please contact us via Twitter or Discord, if you want to set up an OnChain Gif project."
+    "Because we are the first ever to create GIFs on-chain, we like to share this knowledge with other projects. For this \"consulting\" we want to get a certain amount of the NFTs from the new project in return. These NFTs will then be drawn between all CatsOnChain holders. Please contact us via Twitter or Discord, if you want to set up an OnChain Gif project."
   ],
   "about": {
     "text": "Some important information about the project: ",
@@ -20,7 +20,7 @@
     },
     {
       "date": "November 2021",
-      "description": "Build knowledge of how a GIF is constructed at bit level. Unlike other projects, we don't use \"human-readable\"SVG format but the very common but complex GIF format."
+      "description": "Build knowledge of how a GIF is constructed at bit level. Unlike other projects, we don't use \"human-readable\" SVG format but the very common but complex GIF format."
     },
     {
       "date": "December 2021",
