@@ -97,3 +97,18 @@ h3 {
 ul {
   margin-left: 16px;
 }
+
+.btn {
+  background-color: var(--color-bg);
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid var(--color-bg);
+  padding: 5px;
+	transition: all 0.5s;
+}
+
+.btn:hover{
+  border: 2px solid white;
+}
