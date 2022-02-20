@@ -1,3 +1,4 @@
+import Mint from "../mint/Mint";
 import "./Header.css";
 
 const Header = () => {
@@ -90,7 +91,7 @@ const Header = () => {
       </div>
 
       <div className="divider"></div>
-      <div className="anchorsContainer"></div>
+      <div className="anchorsContainer"><Mint/></div>
     </div>
   );
 };
