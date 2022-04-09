@@ -1,2 +1,2 @@
-import { detectMetaMask, connectToMetaMask } from "./minting";
-export { detectMetaMask, connectToMetaMask };
+import { isConnectedSub, onConnect } from "./minting";
+export { isConnectedSub, onConnect };

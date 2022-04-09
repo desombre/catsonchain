@@ -1,29 +1,35 @@
-import { useState, useEffect } from "react";
-import { detectMetaMask, connectToMetaMask } from "../../utils";
+import { useEffect, useState } from "react";
+import { isConnectedSub, onConnect } from "../../utils";
+import { mintCat } from "../../utils/minting";
 import "./Mint.css";
 
 const Mint = () => {
-  const [metaMaskInstalled, setMetaMaskInstalled] = useState(false);
+  const [isConnected, setIsConnected] = useState(false);
+
+  isConnectedSub.subscribe(setIsConnected);
 
   useEffect(() => {
-    setMetaMaskInstalled(detectMetaMask());
-  }, []);
+    console.log(`isConnected ${isConnected}`)
+  
 
-  const mint = () => {
-   /*  console.log(
+  }, [isConnected])
+  
+
+  const mint = async () => {
+    /*  console.log(
       `Metamask is ${metaMaskInstalled ? "installed" : "not installed"}.`
     ); */
-    if (metaMaskInstalled) {
-      connectToMetaMask();
+    if (isConnected) {
+      mintCat();
     } else {
-      window.open("https://metamask.io/", "_blank");
+      onConnect();
     }
   };
 
   return (
     <div className="buttonWrapper">
       <button className="btn mintButton" onClick={mint}>
-        {metaMaskInstalled ? "Adopt a cat!" : "Install MetaMask"}
+        {isConnected ? "Adopt a cat [0.08 Eth]" : "Connect to MetaMask!"}
       </button>
     </div>
   );
